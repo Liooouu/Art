@@ -1,10 +1,12 @@
-import { ArtPage } from "../components/ArtPage"
+import { ArtPage } from "../Pages/ArtPage"
+import { Navbar } from "../Components/Navbar"
 
 function App() {
 
   return (
  <>
- <ArtPage/>
+ <ArtPage />
+ <Navbar />
  </>
   )
 }
