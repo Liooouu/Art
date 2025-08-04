@@ -9,7 +9,7 @@ import { About } from "../Pages/AboutPage";
 export const Home = () => {
   return (
     <>
-    <Navbar/>
+   
       <main className="flex justify-center items-center flex-col font-montserrat text-[#364687] lg:text-4xl md:text-3xl font-bold min-h-screen">
         <div className="container flex justify-center items-center flex-col h-[50vh] w-max md:space-y-2 lg:space-y-4">
           <p className="sm:text-2xl lg:text-3xl font-semibold">WELCOME TO </p>
@@ -29,9 +29,9 @@ export const Home = () => {
         {/* Centered Button */}
         <Link
           to="/welcome"
-          className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition"
+          className="bg-sky-600 text-white px-2 py-2 mt-5 mb-5 rounded hover:bg-blue-700 transition"
         >
-          Go to Welcome Page
+          Start
         </Link>
       </main>
     </>
@@ -44,6 +44,7 @@ function App() {
   return (
  <>
  <Router>
+ <Navbar/>
  <Routes>
   <Route path="/" element={<Home/>} />
   <Route path="/home" element={<Home/>} />
