@@ -1,15 +1,9 @@
 export const ArtPage = () => {
     return (
         <>    
-        <div className="min-h-screen text-center bg-gradient-to-tr from-indigo-400 to-sky-500">
-            <h1 className="">
-                Hi
-            </h1>
-            <div className="justify-items-center">
-                <h2>
-                    hello
-                </h2>
-            </div>
+        <div className="min-h-screen bg-gradient-to-tr from-indigo-400 to-sky-500 flex flex-col items-center justify-center text-center px-4">
+            
+            
         </div>
         </>
     )
