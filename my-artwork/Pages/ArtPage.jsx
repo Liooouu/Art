@@ -1,7 +1,7 @@
 export const ArtPage = () => {
     return (
         <>    
-        <div className="min-h-screen text-center bg-gradient-to-tr from-indigo-100 to-sky-700">
+        <div className="min-h-screen text-center bg-gradient-to-tr from-indigo-400 to-sky-500">
             <h1 className="">
                 Hi
             </h1>

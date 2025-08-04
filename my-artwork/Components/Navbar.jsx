@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 
 export const Navbar = () => {
     return (
-        <nav className="flex justify-end bg-sky-950 p-4">
+        <nav className="flex justify-end bg-gradient-to-t from-indigo-600 to-sky-900 p-4">
             <ul className="flex space-x-6 text-white text-lg font-serif">
                 <li>
                     <Link to="/home">Home</Link>
